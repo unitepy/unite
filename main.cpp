@@ -19,8 +19,10 @@ int main( int argc, char** argv ) {
 			code.append( "from sys import path as dontknow\ndontknow.append('python-modules')\n" );
 
 			for ( std::string line; getline( file, line ); ) {
-				if ( line == "#!/usr/bin/env python3" ) {
-					code.insert( 0, "#!/usr/bin/env python3\n" );
+				if ( line == "#!/usr/bin/env unite" ) {
+					code.insert( 0, line + "\n" );
+				} else if ( line == "#!/usr/bin/env python3" ) {
+					code.insert( 0, line + "\n" );
 				} else {
 					code.append( line + "\n" );
 				}

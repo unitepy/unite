@@ -9,8 +9,6 @@ int main( int argc, char** argv ) {
 
 		std::string code;
 
-		std::string read;
-
 		std::ifstream file;
 		file.open( argv[ 1 ] );
 

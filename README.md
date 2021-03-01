@@ -1,6 +1,6 @@
 ## Unite.py is an open-source Python runtime environment.
 
-Install:
+#Install:
 ```console
 wget https://raw.github.com/unitepy/unite/main/unitepy.deb
 sudo dpkg -i unitepy.deb

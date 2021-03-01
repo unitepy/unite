@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd /opt/unitepy
+cmake .
+make
+cp /opt/unitepy/unite /usr/bin/
+
+exit 0

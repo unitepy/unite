@@ -1,0 +1,16 @@
+Package: unitepy
+Source: 
+Version: 0.0.1
+Architecture: all
+Maintainer: <siewdass@gmail.com>
+Installed-Size: 132
+Depends: python3, python3-pip, python3-dev, libpython3-dev, cmake, build-essential
+Section: 
+Priority: optional
+Homepage: https://www.google.com/
+Description: OpenType text shaping engine (GObject introspection data)
+ HarfBuzz is an implementation of the OpenType Layout engine (aka layout
+ engine) and the script-specific logic (aka shaping engine).
+ .
+ This package contains introspection data for the GObject bindings library.
+Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>

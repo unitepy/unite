@@ -1,0 +1,9 @@
+#!/bin/sh
+
+file="/usr/bin/unite"
+
+if [ -f "$file" ] ; then
+    rm -f "$file"
+fi
+
+exit 0

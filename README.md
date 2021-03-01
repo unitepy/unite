@@ -1,4 +1,4 @@
-## Unite.py is an open-source Python runtime environment.
+## Unite.py is an open-source Python3 runtime environment.
 
 ### INSTALL:
 ```console

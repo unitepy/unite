@@ -7,8 +7,10 @@ sudo dpkg -i unitepy.deb
 sudo apt install -f -y
 ```
 
+### UPM
+
+```console
 unite main.py
-
 upm init
-
 upm install <package>
+```

@@ -13,7 +13,7 @@ sudo apt install -f -y
 unite main.py
 ```
 
-### UPM
+### UPM:
 ```console
 upm init
 upm install <package>
